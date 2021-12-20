@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class soccerTeam {
+public class SoccerTeam {
 	
 	Scanner input = new Scanner(System.in);
 	
@@ -32,7 +32,7 @@ public class soccerTeam {
 	}
 }
 
-class Team extends soccerTeam {
+class Team extends SoccerTeam {
 	public Team(String teamName, String cityName, int atkRating, int defRating, int tableRank) {
 		this.teamName = teamName;
 		this.cityName = cityName;
@@ -42,5 +42,5 @@ class Team extends soccerTeam {
 		
 	}
 	
-	
+
 }
